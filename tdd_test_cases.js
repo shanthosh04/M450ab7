@@ -1,15 +1,24 @@
-function formatCurrency (number){
+function formatCurrency(number) {
+    formatCurrency = 
+  }
+  
+  function transformArrayToObject(array) {
+  
+    }
 
-}
 
-function transformArrayToObject(){
+ 
+  function capitalizeFirstLetter(string) {
+  }
+  
+  function convertToCamelCase(string) {
 
-}
-
-function capitalizeFirstLetter() {
-
-}
-
-function convertToCamelCase () {
-
-}
+  }
+  
+  module.exports = {
+    formatCurrency,
+    transformArrayToObject,
+    capitalizeFirstLetter,
+    convertToCamelCase,
+  };
+  
