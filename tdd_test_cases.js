@@ -3,15 +3,18 @@ function formatCurrency(number) {
   }
   
   function transformArrayToObject(array) {
-  
+    const obj = {};
+    for (const [key, value] of array) {
+      obj[key] = value;
     }
+    return obj;
+  }
 
-
- 
   function capitalizeFirstLetter(string) {
   }
   
   function convertToCamelCase(string) {
+
 
   }
   
